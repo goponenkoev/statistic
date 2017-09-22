@@ -1,0 +1,36 @@
+﻿Построение начато 10.05.2017 23:04:15.
+     1>Проект "C:\Users\gopon\OneDrive\Документы\Visual Studio 2012\Projects\Statistic\Statistic\Statistic.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Statistic.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Ravn.cpp Statistic.cpp
+         Statistic.cpp
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\statistic.cpp(5): warning C4627: #include "Binom.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\statistic.cpp(6): warning C4627: #include "Geom.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\statistic.cpp(7): warning C4627: #include "Puasson.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\statistic.cpp(8): warning C4627: #include "Log.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\statistic.cpp(87): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+         Ravn.cpp
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(1): warning C4627: #include "Inc.h": пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(14): error C2039: ofstream: не является членом "std"
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(14): error C2065: ofstream: необъявленный идентификатор
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "file"
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(14): error C2065: file: необъявленный идентификатор
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(15): error C2065: file: необъявленный идентификатор
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(15): error C2228: выражение слева от ".open" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(20): error C2039: sort: не является членом "std"
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(20): error C3861: sort: идентификатор не найден
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(22): error C2065: file: необъявленный идентификатор
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(27): error C2065: file: необъявленный идентификатор
+     1>c:\users\gopon\onedrive\документы\visual studio 2012\projects\statistic\statistic\ravn.cpp(27): error C2228: выражение слева от ".close" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+         Создание кода...
+     1>Построение проекта "C:\Users\gopon\OneDrive\Документы\Visual Studio 2012\Projects\Statistic\Statistic\Statistic.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.24
